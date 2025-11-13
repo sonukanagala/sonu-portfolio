@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sonu Kanagala — Electrical & Embedded Portfolio</title>
+  <meta name="description" content="Microcontrollers, C/C++ firmware, Python test scripts, bench bring-up, oscilloscopes, logic analyzers, Linux, IoT telemetry." />
+  <meta property="og:title" content="Sonu Kanagala — Electrical & Embedded Portfolio" />
+  <meta property="og:description" content="Selected hands-on projects with measurable results and SOPs." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root { color-scheme: light dark; }
+    body {font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; color: #111; background:#fff;}
+    header {padding: 24px; border-bottom: 2px solid #eee;}
+    header h1 {margin: 0 0 4px 0; font-size: 26px;}
+    header p {margin: 2px 0;}
+    .wrap {max-width: 980px; margin: 0 auto; padding: 24px;}
+    h2 {margin-top: 28px; border-bottom: 2px solid #eee; padding-bottom: 6px;}
+    .grid {display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 18px;}
+    .card {border: 1px solid #e6e6e6; border-radius: 12px; padding: 16px;}
+    a {color: #0a66c2; text-decoration: none;}
+    a:hover {text-decoration: underline;}
+    ul {margin: 8px 0 0 18px;}
+    footer {padding: 24px; border-top: 2px solid #eee; text-align: center; font-size: 13px; color: #666;}
+    img {width:100%; border-radius: 10px; border: 1px solid #eee;}
+    .meta {font-size: 12px; color:#666; margin-top:8px}
+    @media (prefers-color-scheme: dark){
+      body{color:#eaeaea;background:#111}
+      header, footer{border-color:#222}
+      .card{border-color:#222}
+      a{color:#7ab8ff}
+    }
+  </style>
+</head>
+<body>
+<header class="wrap">
+  <h1>Sonu Kanagala — Electrical & Embedded Systems Portfolio</h1>
+  <p>Boston, MA · <a href="mailto:kanagala.so@northeastern.edu">kanagala.so@northeastern.edu</a> · (857) 492-5365 ·
+     <a href="https://www.linkedin.com/in/-sonu" target="_blank" rel="noopener noreferrer">linkedin.com/in/-sonu</a></p>
+  <p><strong>Focus:</strong> microcontrollers · C/C++ firmware · Python test scripts · bench bring-up · oscilloscopes · logic analyzers · Linux · IoT telemetry</p>
+</header>
+
+<main class="wrap">
+  <h2>Featured Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>ESP8266 Vitals Telemetry Pipeline — Healthcare</h3>
+      <p>Microcontroller firmware in C for SpO₂, ECG, BP sensors plus Python provisioning and test harness on Linux</p>
+      <ul>
+        <li>&lt;2 s telemetry refresh · &gt;90% agreement across 10+ validation runs</li>
+        <li>MQTT/HTTP payloads · health checks · timestamped logs · SOP for handoff</li>
+        <li>Verified links with Wireshark and logic analyzer captures</li>
+      </ul>
+      <div class="meta">Tech: C, Python, ESP8266, MQTT/HTTP, Linux, Wireshark, logic analyzer</div>
+    </div>
+
+    <div class="card">
+      <h3>Smart Crop Monitoring — IoT + Embedded</h3>
+      <p>Wireless sensor nodes with calibrated soil moisture, temperature, humidity; Wi-Fi cloud updates</p>
+      <ul>
+        <li>90% moisture accuracy vs handheld probes across 200+ samples over 100 m²</li>
+        <li>&lt;5 s end-to-cloud latency · duty cycling to 48+ hours uptime</li>
+        <li>Setup and calibration SOP with acceptance checks · zero build rework</li>
+      </ul>
+      <div class="meta">Tech: ESP8266, HTTP, Python, Linux, Grafana/InfluxDB</div>
+    </div>
+
+    <div class="card">
+      <h3>Wireless Sensor Network Simulation — ns-3 + Wireshark</h3>
+      <p>C++ counters for retries/backoff/aggregation; CSV + PCAP artifacts; Python parameter sweeps</p>
+      <ul>
+        <li>~30–35% fewer retransmissions · ~20–25% lower p95 latency with RTS/CTS</li>
+        <li>&gt;95% field alignment in Wireshark · figure-ready plots</li>
+      </ul>
+      <div class="meta">Tech: C++, ns-3, Python, Wireshark, Linux</div>
+    </div>
+
+    <div class="card">
+      <h3>Autonomous Vehicle Interaction — Sensor Fusion (Simulation)</h3>
+      <p>Ultrasonic + short-range RF with temporal filtering and threshold gating</p>
+      <ul>
+        <li>95% detection across 10+ scenarios · &lt;2 s alerting</li>
+        <li>Confusion matrices and latency histograms for QA review</li>
+      </ul>
+      <div class="meta">Tech: MATLAB, signal processing basics</div>
+    </div>
+  </div>
+
+  <h2>Bench & Validation Gallery</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="assets/scope-example-1.jpg" alt="Oscilloscope capture: UART timing verification">
+      <p class="meta">Replace with your actual scope photo</p>
+    </div>
+    <div class="card">
+      <img src="assets/wiring-example-1.jpg" alt="Bench wiring with labeled connectors">
+      <p class="meta">Replace with your actual bench photo</p>
+    </div>
+  </div>
+
+  <h2>Downloads</h2>
+  <p>
+    <a href="assets/Sonu_Kanagala_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume (PDF)</a> ·
+    <a href="assets/Sonu_Kanagala_Portfolio.pdf" target="_blank" rel="noopener noreferrer">Portfolio (PDF)</a>
+  </p>
+
+  <h2>Contact</h2>
+  <p>Email me at <a href="mailto:kanagala.so@northeastern.edu">kanagala.so@northeastern.edu</a> — available onsite Winter/Spring 2026 in Somerville, MA</p>
+</main>
+
+<footer>
+  © 2025 Sonu Kanagala · Keep building
+</footer>
+</body>
+</html>
